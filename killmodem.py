@@ -41,6 +41,7 @@ class ModemKiller(object):
 
     def kill(self, max=1000):
         print('Modem info:\n%s' % self.info())
+        print('Modem mode: %i' % self.mode)
 
         for i in xrange(0, max):
             print('Setting mode to: %i' % i)
