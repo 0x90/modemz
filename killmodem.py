@@ -43,9 +43,9 @@ class ModemKiller(object):
         print('Modem info:\n%s' % self.info())
         print('Modem mode: %i' % self.mode)
 
-        for i in xrange(0, max):
-            print('Setting mode to: %i' % i)
-            self.mode = i
+        # for i in xrange(0, max):
+        #     print('Setting mode to: %i' % i)
+        #     self.mode = i
 
 if __name__ == '__main__':
     if len(argv) == 1:
