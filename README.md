@@ -1,25 +1,22 @@
-AT^U2DIAG=0 устройство в режиме только модем
-AT^U2DIAG=1 устройство в режиме модем + CD-ROM
-AT^U2DIAG=255 устройство в режиме модем + CD-ROM + Card Reader
-AT^U2DIAG=256 устройство в режиме модем + Card Reader
+# 3G/4G Modems
 
-Работают следующие команды:
 
-AT^U2DIAG=0 (девайс в режиме только модем)
-AT^U2DIAG=1 (девайс в режиме модем + CD-ROM)
-AT^U2DIAG=6 (девайс в режиме только сетевая карта)
-AT^U2DIAG=268 для E1750 (девайс в режиме модем +
-CD-ROM + Card Reader)
-AT^U2DIAG=276 для E1750 (девайс в режиме сетевой
-карты + CD-ROM + Card Reader)
-AT^U2DIAG=256 (девайс в режиме модем + Card Reader),
-можно использовать
-как обычную флешку, отказавшись от установки
-драйверов модема
+## Set modem mode
 
-А эта команда не работает:
+AT^U2DIAG=0 (modem)
 
-AT^U2DIAG=255 (девайс в режиме модем + CD-ROM
-+ Card Reader)
+AT^U2DIAG=1 (modem + CD-ROM)
 
-Источник: http://trustoff.ru/kak-vvesti-at-komandy-v-modem-cherez-hyperterminal#ixzz3BmiuelMl
+AT^U2DIAG=6 (network card)
+
+AT^U2DIAG=255 (modem + CD-ROM + Card Reader)  <-- works?
+
+AT^U2DIAG=256 (modem + Card Reader) 
+
+AT^U2DIAG=268 for E1750 (modem + CD-ROM + Card Reader)
+
+AT^U2DIAG=276 for E1750 (network card + CD-ROM + Card Reader)
+
+## Links
+
+http://trustoff.ru/kak-vvesti-at-komandy-v-modem-cherez-hyperterminal#ixzz3BmiuelMl
