@@ -1,5 +1,6 @@
 # 3G/4G Modems
 
+[Main research](http://dsec.ru/upload/medialibrary/589/589327eb24133e5c615fa11950340e05.pdf)
 
 ## Set modem mode
 
